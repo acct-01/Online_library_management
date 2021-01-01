@@ -1,0 +1,77 @@
+<!DOCTYPE>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Login- Online Library</title>
+	<style type="text/css">
+		
+		body
+		{
+			background-image: url('L1.jpg');
+			background-repeat: no-repeat;
+			background-position: left-bottom;
+			background-size: 100% 100%;
+			text-align: center;
+		}
+
+		h1
+		{
+			font-size: 60px;
+			color: grey;
+			text-align: center;
+			font-family: Lato;
+			text-shadow: 1px 2px red;
+		}
+
+		section
+		{
+			
+ 			width: 250px;
+  			border: 3px solid green;
+  			padding: 50px;
+  			margin-left: 35%;
+  			color: white;
+  			font-size: 18px;
+		}
+
+		input[type=text], input[type=password]
+		{  
+	      width: 50%;  
+	      padding: 5px;  
+	      margin: 5px 0 5px 0;  
+	      display: inline-block;  
+	      border: none;  
+	      background: lightgrey;  
+	     }
+
+	    .submitbtn {  
+		      background-color: #4CAF50;  
+		      color: white;  
+		      padding: 16px 20px;  
+		      margin: 8px 0;  
+		      border: none;  
+		      cursor: pointer;  
+		      width: 100%;  
+		      opacity: 0.9;  
+    }  
+		</style>
+
+</head>
+
+<body>
+	<form>
+		<h1> User Login</h1>
+		<section>
+			User Id:
+			<input type="text" name="userid" placeholder="luckyone@123" required><br>
+
+			Password:
+        	<input type="password" placeholder="Enter Password" name="psw" required><br><br>
+
+        	<button type="submit" class="submitbtn" formaction="/LMS.html">Submit</button>
+		
+		</section>
+	</form>
+
+</body>
+</html>

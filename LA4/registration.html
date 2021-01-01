@@ -1,0 +1,95 @@
+<!DOCTYPE>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Registration- Online Library</title>
+	<style type="text/css">
+		
+		body
+		{
+			background-image: url('L1.jpg');
+			background-repeat: no-repeat;
+			background-position: left-bottom;
+			background-size: 100% 100%;
+			text-align: center;
+		}
+
+		h1
+		{
+			font-size: 60px;
+			color: grey;
+			text-align: center;
+			font-family: Lato;
+			text-shadow: 1px 2px red;
+		}
+
+		section
+		{
+			
+ 			width: 300px;
+  			border: 3px solid green;
+  			padding: 70px;
+  			margin-left: 34%;
+  			color: white;
+  			font-size: 18px;
+		}
+
+		input[type=text], input[type=password], textarea, input[type=file] {  
+      width: 50%;  
+      padding: 5px;  
+      margin: 5px 0 5px 0;  
+      display: inline-block;  
+      border: none;  
+      background: lightgrey;  
+    }  
+
+    .registerbtn {  
+      background-color: #4CAF50;  
+      color: white;  
+      padding: 16px 20px;  
+      margin: 8px 0;  
+      border: none;  
+      cursor: pointer;  
+      width: 100%;  
+      opacity: 0.9;  
+    }  
+
+	</style>
+</head>
+<body>
+	<form onsubmit>
+
+	<h1>Registration</h1>
+
+	<section>
+			Full Name:
+			<input type="text" name="Full Name" required><br>
+
+			Phone :  
+			<input type="text" name="phone" size="10"/> <br> 
+
+			Id Proof:
+			<input type="file" name="myfile" required><br>
+
+			Current Address :  
+			<textarea cols="40" rows="3" placeholder="Area" value="address" required>  
+			 </textarea>
+
+			User Id:
+			<input type="text" name="userid" placeholder="luckyone@123" required><br>
+
+			Password:
+        	<input type="password" placeholder="Enter Password" name="psw" required><br>
+      
+        	Re-type Password:
+        	<input type="password" placeholder="Retype Password" name="psw-repeat" required> <br>
+
+        	<button type="submit" class="registerbtn" formaction="/action_page.php">Register</button>
+        	
+
+	</section>
+
+	</form>
+
+</body>
+</html>
